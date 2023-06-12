@@ -80,6 +80,11 @@ The fourth to eighth byte will be decoded by "U32 0.001:Blub is 0.2 squiggles". 
 So the complete decoded string will be "Foo=10.0V, Bar=2A, 51.35, Blub is 84281.10 squiggles".
 
 
+### Compilation
 
+```
+qmake-qt5 exclude=pcan ../CAN-Monitor-qt
+make
+```
 
 

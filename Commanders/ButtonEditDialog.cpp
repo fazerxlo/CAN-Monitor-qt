@@ -5,6 +5,7 @@
 #include <QRegularExpression>
 #include "util/rangeParse.h"
 #include "util/DialogUtil.h"
+#include <QSet>
 
 ButtonEditDialog::ButtonEditDialog(QWidget *parent) :
     QDialog(parent),

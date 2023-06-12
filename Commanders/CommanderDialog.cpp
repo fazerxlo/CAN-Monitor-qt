@@ -12,6 +12,7 @@
 #include <QMessageBox>
 #include <QDebug>
 #include "Tree/ComboBoxDelegate.h"
+#include <QCloseEvent>
 
 CommanderDialog::CommanderDialog(QWidget *parent, CanHub * canHub, QString name) :
     QMainWindow(parent),

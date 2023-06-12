@@ -1,2 +1,9 @@
 CAN-Monitor-qt.pro.user
-
+*.o
+*.a
+Makefile
+.qmake.stash
+CAN-Monitor-qt
+moc_*.cpp
+moc_*.h
+ui_*.h

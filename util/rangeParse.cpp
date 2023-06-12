@@ -2,6 +2,7 @@
 
 #include <QString>
 #include <QRegularExpression>
+#include <QSet>
 
 QSet<int> rangeParse(const QString &str)
 {
